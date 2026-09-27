@@ -1,0 +1,18 @@
+{
+  "name": "udyog-sarthi-sih26130",
+  "version": "1.0.0",
+  "description": "Udyog Sarthi — Unified industrial approval & compliance platform for Government of Maharashtra (SIH Problem Statement ID 26130)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --check server.js && node --check data/seed.js && node --check public/app.js && node -e \"JSON.parse(require('fs').readFileSync('public/i18n.json','utf8'));console.log('i18n OK')\"",
+    "lint": "node -e \"const fs=require('fs');const files=['server.js','data/seed.js','public/app.js','public/index.html','public/i18n.json'];let bad=[];for(const f of files){try{const t=fs.readFileSync(f,'utf8');if(/TODO|XXX/.test(t))bad.push(f)}catch(e){console.error('missing '+f);process.exit(1)}}if(bad.length){console.error('PLACEHOLDERS found in: '+bad.join(', '));process.exit(1)}else console.log('lint OK: no TODO/XXX')\""
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

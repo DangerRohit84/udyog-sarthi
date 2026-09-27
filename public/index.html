@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Udyog Sarthi — Maharashtra Single-Window Industrial Approvals demo (SIH 26130). Checklists, SLA tracker, officer queue, analytics.">
+<title>Udyog Sarthi — Maharashtra Single-Window Industrial Approvals (SIH 26130)</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#view">Skip to main content</a>
+<header class="topbar">
+  <div class="brand" onclick="location.hash='#/'">
+    <div class="crest">म</div>
+    <div>
+      <div class="brand-name">Udyog Sarthi <span class="pill-gov">Govt. of Maharashtra</span></div>
+      <div class="brand-sub" id="brandsub">Single-Window Industrial Approvals · SIH ID 26130</div>
+    </div>
+  </div>
+  <nav class="nav" id="nav" aria-label="Primary"></nav>
+  <div class="rolebox" id="rolebox"></div>
+</header>
+<div class="alertstrip" id="alertstrip" role="status" aria-live="polite"></div>
+<div class="toast" id="toast" role="status" aria-live="polite" style="display:none"></div>
+<main id="view" tabindex="-1"></main>
+<footer class="footer">
+  <span>Udyog Sarthi · Govt. of Maharashtra single-window · <b>SIH ID 26130</b> · 🌱 SEED illustrative · 🔴 LIVE moves with filings · <code>data/db.json</code></span>
+  <span><a href="#/" style="color:#ffcf9e">Home</a> · <a href="#/tracker" style="color:#ffcf9e">Tracker</a> · <a href="#/schemes" style="color:#ffcf9e">Schemes</a> · <button class="linkbtn" onclick="resetDemo()">Reset demo data</button></span>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

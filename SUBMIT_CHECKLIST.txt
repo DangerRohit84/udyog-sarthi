@@ -1,0 +1,24 @@
+SIH-26130 SUBMIT CHECKLIST — fill in 20 min before portal upload (Udyog Sarthi AI)
+====================================================================================
+Deck: Udyog-Sarthi-AI-SIH26130-IDEA-PPT.pptx (6 slides) + PDF. Vision 8-slide file
+archived to .ai\archive\ — DO NOT upload it.
+
+[ ] 1. Team ID: replace SIH26130-XXX with allotted ID (Ctrl+H in PowerPoint:
+         SIH26130-XXX -> your ID; check title slide, all 5 header ovals, S6 footer).
+[ ] 2. Team Name: confirm "Team Udyog Sarthi" (Slide 1). Change only if official name differs.
+[ ] 3. College: replace "College - ___ (fill before upload)" on Slide 1 with full
+         college name + city (e.g. "College - XYZ Institute of Technology, Nashik").
+[ ] 4. Member names: SIH portal takes names separately — PPT intentionally has NO
+         member names (6-slide IDEA format). Do NOT add a names slide (would break 6-slide rule).
+[ ] 5. Female member check: confirm team meets SIH rule (>=1 female member if team of 6).
+         No PPT change needed — verify in portal entry before submit.
+[ ] 6. Theme/category exact: Slide 1 says Theme - Miscellaneous | PS Category - Software.
+         Match portal dropdowns EXACTLY to PS SIH26130 wording; fix slide if portal differs.
+[ ] 7. Re-export PDF after edits (PowerPoint Save As PDF), confirm <5 MB.
+[ ] 8. Upload ONLY: 6-slide PPTX + PDF. Never upload .bak or .ai\archive\ vision file.
+[ ] 9. Demo honesty (if asked live): Vanilla JS + Node/Express + JSON store + TF-IDF
+         retrieval v1 (n=32 correct=19 acc 0.594 ungamed, no LLM, verified 2026-09-27) + filename/size/expiry validation. React /
+         Postgres-pgvector / Tesseract OCR / SMS / LLM are Phase-2 roadmap — say so.
+[ ] 10. Backup: carry USB + 6 PNGs (.ai\reports\ppt-submit-slides\) + PDF on phone.
+---
+Verified 2026-09-13 (docs-refresh): root clean — ONLY Udyog-Sarthi-AI-SIH26130-IDEA-PPT.pptx (707,664 B) + Udyog-Sarthi-AI-SIH26130-IDEA-PPT.pdf (477,804 B) in root; zero *.bak/*.tmp/vision deck in root (forbidden files live under .ai/archive/, git-ignored). Note: root aadhar.pdf (0 B) is NOT a deck — ignore it, upload ONLY the two Udyog-Sarthi-AI-* files above.
